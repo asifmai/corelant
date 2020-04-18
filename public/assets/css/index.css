@@ -1,0 +1,298 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif !important;
+}
+div, span, a, button, img {
+    transition: 200ms all ease-in-out;
+}
+button{
+    cursor: pointer;
+}
+/* navbar */
+.nav-item .nav-link{
+    padding: 2.3em 0.5em;
+}
+.navbar-nav .nav-item{
+    margin: 0 0.5em;
+}
+.navbar-brand >img{
+    width: 150px;
+}
+.nav-item >.nav-link.active,.nav-item >.nav-link:hover {
+    color: #0094F2 !important;
+    background-color: rgba(0, 148, 242, 0.05);
+}
+/* hero-section */
+.hero-section{
+    background-image: url("../img/Banner-1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.same-button{
+    background-color: #0094F2;
+    color: white;
+    border: 2px solid #0094F2;
+    font-weight: bold;
+    padding: 1em 1.5em;
+    border-radius: 4px
+}
+.same-button:hover{
+    background-color: transparent;
+    /* color: #0094F2; */
+    border-color: white;
+}
+.same-button3{
+    background-color: #0094F2;
+    color: white;
+    border: 2px solid #0094F2;
+    font-weight: bold;
+    padding: 1em 1.5em;
+    border-radius: 4px
+}
+.same-button3:hover{
+    background-color: transparent;
+    /* color: #0094F2; */
+    border-color: white;
+}
+/* All sections */
+.equal-distance{
+    padding: 6em 0;
+}
+/* png imgs */
+.pic-height{
+    height: 70px;
+}
+.hero-section .hero-heading{
+    color: white;
+}
+
+/* first-section */
+h2::before{
+    content: " ";
+    position: absolute;
+    top: 2.8em;
+    left: 0.5em;
+    background-color: #0094F2;
+    width: 13%;
+    height: 5px;
+}
+.first-section {
+    position: relative;
+}
+.first-section > img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+}
+/* second-section */
+.second-section {
+    overflow: hidden;
+    position: relative;
+    /* background-image: url("../img/Group824.png");
+    background-position: -50% 0%;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+.second-section > img {
+    position: absolute;
+    height: 100%;
+    right: 75%;
+    top: 0;
+    /* transform: translateX(50%); */
+}
+.second-section .photos{
+ position: relative;
+}
+.second-section .photos img{
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.photos .img-3{
+    position: absolute;
+    bottom: -35em;
+    right: 8.5em;
+}
+.photos .img-2{
+    position: absolute;
+    bottom: -25.3em;
+    left: 6em;
+}
+.photos .img-1{
+    position: absolute;
+    bottom: -10em;
+}
+.second-section .carousel .carousel-item img {
+    width: 130px;
+    height: 130px;
+} 
+@media only screen and (max-width: 768px) {
+     .photos{
+         display: none;
+    }
+}
+/* Third section */
+.third-section {
+    position: relative;
+}
+.third-section > img.left-background {
+    position: absolute;
+    width: 30%;
+    left: 0;
+    top: -50px;
+}
+.third-section > img.right-background {
+    position: absolute;
+    height: 80%;
+    left: 75%;
+    top: 0;
+}
+.third-section .card-style{
+    border: 1px solid rgb(212, 212, 212);
+    padding: 3em 2em;
+}
+.third-section .card-style:hover{
+    background-color: #0094F2;
+    color: white;
+}
+.third-section .card-style:hover .text {
+    color: white;
+}
+.third-section .card-style:hover img {
+    filter: brightness(0) invert(1);
+}
+/* Fourth section */
+.fourth-section {
+    background-image: url("../img/19366.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.fourth-section .small-button{
+    padding: 0.2em 0.7em;
+    background-color: rgb(60, 130, 220);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.fourth-section .card .card-text{
+    /* margin-top: 15.6em; */
+    font-weight: bold;
+}
+.fourth-section .card .card-img-overlay .gradient {
+    position: absolute;
+    background: linear-gradient(transparent, #0094F2);
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+    left: 0;
+    display: flex;
+    padding: 2em 1.7em;
+    align-items: flex-end;
+}
+
+/* Fifth section */
+.fifth-section {
+    background-image: url(../img/Group824.png);
+    background-position: center 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8em 0;
+}
+.fifth-section .input-section{
+    padding: 0.5em;
+    width: 100%;
+    outline: none;
+}
+.fifth-section .email-button{
+    display: flex;
+    margin-left: 0.1em;
+}
+.same-button2{
+    background-color: #0094F2;
+    color: white;
+    border: 1px solid #0094F2;
+    border-left: none;
+    padding: 0.6em;
+    border-radius: 0 4px 4px 0;
+}
+.same-button2:hover {
+    background-color: transparent;
+    color: #0094F2;
+}
+
+/* sixth-section */
+.sixth-section{
+    background-image: url("../img/brickell-key.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.dark-overlay{
+    background-color: rgba(60, 130, 220, 0.6);
+    padding: 8em 0;
+}
+/* footer */
+.main-footer{
+    background-image: url("../img/Image\ 2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 10em;
+}
+.main-footer .address .add{
+    color: #636363;
+}
+.social-icons a{
+    color: #909090;
+    font-size: 1.4em;
+}
+.social-icons a:hover{
+    color: #0094F2;
+    text-decoration: none;
+}
+.main-footer .footer-heading{
+    color: #1E316C;
+}
+.main-footer .links{
+    display: grid;
+}
+.links > a {
+    margin: 0.2em 0;
+    color: #636363;
+    text-decoration: none;
+}
+.links > a:hover {
+    color: #0094F2;
+}
+.main-footer .corelant{
+    background-color:#1E316C;
+    color: white;
+    padding: 1em 0;
+    font-size: 0.7em;
+    margin-top: 8em;
+}
+/* carousel */
+.carousel-indicators{
+    bottom: -80px;
+}
+.carousel-indicators >.active{
+    background-color: #0094F2;
+    width: 50px;
+}
+.carousel-indicators > li {
+    background-color: rgba(0, 148, 242, 0.45);
+    width: 25px;
+    height: 7px;
+    border-radius: 5px;
+}
+.text{
+    color: #636363;;
+}
+
